@@ -1,0 +1,162 @@
+.nav {
+	width:100%;
+	position:fixed;
+	top:0;
+}
+.o{
+	margin:0;
+	padding:10px;
+	overflow:hidden;
+	background:#333;
+}
+.nav ul li{
+	float:right;
+}
+.nav ul li a {
+	display:block;
+	color:white;
+	text-align:center;
+	padding:13px 17px;
+}
+.h:hover{
+	background-color:rgba(125,125,125,0.5)
+}
+.home{
+	background-color:#4CAF50;
+}
+.nav ul li.brand{
+	float:left;
+}
+#mypage {
+  top: 100px
+}
+
+#mypage a {
+  position: fixed;
+  left: -95px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 1
+}
+
+#mypage a:hover {
+  left: 0;
+}
+
+#name {
+  top: 80px;
+  background-color: #4CAF50;
+}
+
+#age{
+  top: 140px;
+  background-color: #2196F3;
+}
+
+#site {
+  top: 200px;
+  background-color: #f44336;
+}
+
+#about {
+  top: 260px;
+  background-color: #555
+}
+
+dt {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 71px;
+  left: 0;
+  margin: 1em 0;
+}
+
+.sticky{
+  margin: 90px 60px
+}
+.rrr {
+  background: url(images.jpg) fixed;
+  padding: 60px;
+  margin: 60px 0;
+}
+
+.rrr p {
+  margin: 90px;
+  padding: 40px;
+  background: rgb(125,125,125);
+  max-height: 6px;
+  overflow: hidden;
+  line-height: 1.9;
+  cursor: pointer;
+}
+
+.rrr p:hover{
+  max-height: 100px;
+}
+
+.fixed-background:hover:after{
+  content: 'this div hovered';
+  background: rgba(255, 0, 0, 0.5);
+  padding: 50px;
+  display: block;
+}
+
+.sss{
+  background: no-repeat center/100% fixed url(images.jpg);
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.ttt div {
+  padding: 20px;
+  background: rgba(0, 0, 255, 0.5);
+}
+
+.ttt > div {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.ttt div~p {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(0 , 255 , 0, 0.5);
+}
+
+.ttt > div > p:hover~p {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(0 , 125 , 125, 0.5);
+}
+
+.kk {
+  background: no-repeat center/100% fixed url(images.jpg);
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.kk p {
+  padding: 20px;
+  text-transform: capitalize;
+  background: rgba(0 , 125 , 125, 0.5);
+  line-height: 2;
+}
+
+.kk p::first-letter{
+  font-size: 30px;
+  background-color: rgba(200 , 50 , 100, 1);
+  padding: 10px;
+  border-radius: 50%
+
+}
+
+.kk p::first-line{
+  background-color: rgba(200 , 100 , 100, 0.5);
